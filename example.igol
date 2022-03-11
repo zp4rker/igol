@@ -1,0 +1,25 @@
+set a to 5
+set b to 9
+set c to "Hello, "
+set d to "world!"
+
+set e to a + b
+set f to c + d
+
+print e
+print f
+
+when e < 15 ->
+  print "e is less than 15"
+<- otherwise when e < 10 ->
+  print "e is less than 10"
+<- otherwise ->
+  print "e is more than 15"
+<-
+
+multiply(x, y) ->
+  output x * y
+<-
+
+set g to multiply a b
+print g
